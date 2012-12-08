@@ -7,6 +7,7 @@ Notes
 =====
 
 Very much a work in progress.
+Currently requires NODE_PATH=. be set in your environment
 
 Updates
 =====
