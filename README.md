@@ -6,7 +6,7 @@ IRC bot named p`u
 Notes
 =====
 
-Very much a work in progress
+Very much a work in progress.
 
 Updates
 =====
