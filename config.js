@@ -1,8 +1,13 @@
-var config = {};
+var config = {
 
-config.chans   = "#telerama"; 
-config.server  = "irc.slashnet.org";
-config.botName = "pu";
-config.friends = "ryan1, gnome, thejesus, cygnus, vertigo, fthnchs",
-config.master  = "thejesus";
+  chans  : "#telerama", 
+  server : "irc.slashnet.org",
+  botName: "pu",
+  friends: "ryan1, gnome, thejesus, cygnus, vertigo, fthnchs",
+  master : "thejesus",
+  modules_to_reload: [ "handlers", "commands", "config" ],
+  module_reload_interval_ms: 2000,
+  COMMAND_DELIMITER: ".",
+}
+
 module.exports = config;
