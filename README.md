@@ -7,9 +7,9 @@ Notes
 =====
 
 Very much a work in progress.  
-Currently requires NODE_PATH=. be set in your environment
+Currently requires NODE_PATH=. be set in your environment.
 
-Updates
+Update Process
 =====
 
 Commands will be loaded dynamically so they can be updated without resetting the bot's IRC connection. Here is the planned workflow: 
@@ -20,3 +20,11 @@ Commands will be loaded dynamically so they can be updated without resetting the
 4. Push updates to github
 5. Something (Travis ci? Hosted Jenkins?) performs unit test on pushed codebase
 6. Assuming that passes, update live bot code (location tbd)
+
+
+Unanswered Questions
+=====
+* What will test pushed github code? 
+* How to dynamically reload code without restarting process holding IRC connection? 
+* How to add in unit tests?
+
